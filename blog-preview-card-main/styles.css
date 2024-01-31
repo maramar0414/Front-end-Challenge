@@ -1,0 +1,24 @@
+.card{
+    border:black solid 3px;
+    width: 324px;
+    height:496px;
+    border-radius: 13px;
+    display:flex;
+    
+    
+}
+.article-img-container{
+    width:282px; 
+    height:201px;
+display:flex;
+justify-content:center;
+align-items:center;
+ border-radius: 14px;
+ border:red solid 3px;
+}
+
+.article-img-container img{
+    width:282px; 
+    height:201px;
+    
+}
