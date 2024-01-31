@@ -3,22 +3,58 @@
     width: 324px;
     height:496px;
     border-radius: 13px;
-    display:flex;
-    
-    
+    display: grid;
+    grid-template-rows: 200px;
+    grid: row gap 3px;
+    justify-items:center;
+    align-items: center;
+    justify-content:space-around;
+
 }
+
 .article-img-container{
     width:282px; 
     height:201px;
-display:flex;
-justify-content:center;
-align-items:center;
  border-radius: 14px;
- border:red solid 3px;
+ /*border:red solid 3px;*/
 }
 
 .article-img-container img{
     width:282px; 
     height:201px;
+    border-radius: 14px;
     
 }
+
+h1{
+    font-family: 'Figtree', sans-serif; 
+    font-size:26px;
+}
+p{
+    font-family:Figtree; 
+    font-size:16px;
+}
+h4{
+    font-family:Figtree; 
+    font-size:12px; 
+}
+.author-container{
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    align-items:center;
+    border:red solid 3px;   
+    
+    
+}
+.avatar-img{
+    border:green solid 1px; 
+}
+.author-name{
+    border:pink solid 2px;
+    font-family: 'Figtree', sans-serif; 
+    font-size:15px;
+    font-weight: 600px;
+    
+}
+
