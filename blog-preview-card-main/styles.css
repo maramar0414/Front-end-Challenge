@@ -7,6 +7,7 @@ justify-items: center;
 align-items: center;
 row-gap:50px;
 }
+
 .card{
     border:black solid 1.75px;
     box-shadow:10px 10px;
@@ -20,18 +21,26 @@ row-gap:50px;
     justify-content:space-between;
     background-color:white;
 }
+
 .article-img-container img{
     width:282px; 
     height:201px;
-    
     margin-top:15px;  
 }
+
 .article-info-container{
     margin: 20px 20px 20px 20px;
     display:flex;
     flex-direction:column;
     justify-content: space-around;
 
+}
+
+button:focus {
+    border:black solid 1.75px;
+}
+button:hover{
+    box-shadow:10px 10px;
 }
 button{
     background-color:hsl(47, 88%, 63%);
@@ -42,34 +51,44 @@ button{
     font-weight: bolder;
     
 }
-
+.post-link:hover, .post-link:focus{
+    background-color:#f2f2ed;
+    border-radius:14px;
+}
+.post-link{
+    text-decoration: none;
+    color:black;
+}
+.post-preview{
+    display:flex;
+    justify-content:space-between;
+}
 h1{ 
     font-size:20px;
-    border:0;
-    margin:0px;
 }
 p{
     font-size:14px;
     font-weight: 50px;
     color:hsl(0, 0%, 50%);
-    border:0;
-    margin:0px;
 }
 h4{ 
     font-size:12px; 
-    border:0;
-    margin:0px;
+
 }
+
 .author-container{
     display:flex;
     flex-direction:row;
     justify-content: flex-start;
     align-items:center;
     
-    
 }
 
+.author-container:hover{
+    color:hsl(47, 88%, 63%);
+}
 .author-name{
+    margin-left: 10px;
     font-size:17px;
     font-weight: 600px;
     
